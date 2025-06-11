@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stephkayd/capstone2.git/static/css/main.1c9b3e01.css",
+    "main.js": "/stephkayd/capstone2.git/static/js/main.a61388a1.js",
+    "index.html": "/stephkayd/capstone2.git/index.html",
+    "main.1c9b3e01.css.map": "/stephkayd/capstone2.git/static/css/main.1c9b3e01.css.map",
+    "main.a61388a1.js.map": "/stephkayd/capstone2.git/static/js/main.a61388a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9b3e01.css",
+    "static/js/main.a61388a1.js"
+  ]
+}
