@@ -55,7 +55,7 @@ export function App(params) {
     log("in onDeleteClick()");
     if (formObject.id >= 0) {
       deleteById(formObject.id);
-      setCustomers(getAll());
+      setCustomers(getAll());  // Refresh customer list after delete
       setFormObject(blankCustomer);
     }
   }
@@ -72,7 +72,7 @@ export function App(params) {
     } else {
       post(formObject);
     }
-    setCustomers(getAll());
+    setCustomers(getAll());  // Refresh customer list after save
     setFormObject(blankCustomer);
   }
 
